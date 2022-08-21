@@ -2,6 +2,7 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 .project1 {
   width: 450px;
@@ -20,6 +21,7 @@ body {
 #name {
   opacity: 0;
   transition: 1s;
+  font-size: 25px;
 }
 .noted {
   background-color: #f6c6ea;
@@ -28,8 +30,8 @@ body {
 }
 .nama {
   background-color: #faf4b7;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .profile {
   height: 500px;
@@ -72,5 +74,12 @@ i {
   }
   .project2 {
     width: 300px;
+  }
+  #name {
+    font-size: 16px;
+  }
+  #korone {
+    border-top: solid #cdf0ea 3px;
+    padding-top: 25px;
   }
 }
