@@ -1,3 +1,4 @@
+// Set TIMEOUT pada Banner Page
 let halo = document.getElementById("greeting");
 let yo = document.getElementById("name");
 let fb = document.getElementById("facebook");
