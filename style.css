@@ -3,10 +3,7 @@ html,
 body {
   overflow-x: hidden;
 }
-#profile {
-  opacity: 0;
-  transition: 1s;
-}
+
 #greeting {
   padding-bottom: 5px;
   opacity: 0;
@@ -22,7 +19,7 @@ body {
   padding-right: 3px;
 }
 .profile {
-  height: 400px;
+  height: 500px;
   border-radius: 20px;
 }
 i {
@@ -50,4 +47,11 @@ i {
 }
 #link i:hover {
   color: #f6c6ea;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    height: 350px;
+    padding-top: 20px;
+  }
 }

@@ -4,11 +4,9 @@ let fb = document.getElementById("facebook");
 let gh = document.getElementById("github");
 let ig = document.getElementById("instagram");
 let share = document.getElementById("share");
-let prof = document.getElementById("profile");
 window.addEventListener("load", function () {
   this.setTimeout(function () {
     halo.style.opacity = 1;
-    prof.style.opacity = 1;
   }, 500);
   this.setTimeout(function () {
     yo.style.opacity = 1;
