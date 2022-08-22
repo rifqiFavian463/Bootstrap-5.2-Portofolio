@@ -38,14 +38,12 @@ body {
   padding-right: 3px;
 }
 .nama {
-  background-color: #faf4b7;
-  padding-left: 6px;
-  padding-right: 6px;
+  background-color: #efb0b4;
+  padding: 4px;
 }
 .profile {
   height: 500px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 i {
   margin-right: 10px;
@@ -67,11 +65,20 @@ i {
   opacity: 0;
   transition: 1s;
 }
+#link {
+  padding: 0;
+}
 #link i {
   color: #1a1a40;
 }
 #link i:hover {
   color: #f6c6ea;
+}
+#navbar {
+  border: none;
+}
+#navbarNav {
+  border: none;
 }
 @media (max-width: 768px) {
   .profile {
@@ -87,13 +94,20 @@ i {
   }
   #name {
     font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   #korone {
-    border-top: solid #cdf0ea 3px;
+    border-top: solid white 3px;
     padding-top: 25px;
   }
   #link {
     text-align: center;
     font-weight: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #checkout {
+    margin-left: 30px;
   }
 }
