@@ -2,7 +2,7 @@
 html,
 body {
   overflow-x: hidden;
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
 }
 .project1 {
   width: 450px;
@@ -12,6 +12,9 @@ body {
 .project2 {
   width: 400px;
   border-radius: 10px;
+}
+#carouselimg {
+  border-radius: 15px;
 }
 #greeting {
   padding-bottom: 5px;
@@ -36,6 +39,7 @@ body {
 .profile {
   height: 500px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 i {
   margin-right: 10px;
@@ -81,5 +85,9 @@ i {
   #korone {
     border-top: solid #cdf0ea 3px;
     padding-top: 25px;
+  }
+  #link {
+    text-align: center;
+    font-weight: 5px;
   }
 }
