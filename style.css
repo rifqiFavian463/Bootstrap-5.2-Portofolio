@@ -9,6 +9,11 @@ html,
 body {
   overflow-x: hidden;
   font-family: "montserratregular", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#KIT {
+  padding-left: 50px;
 }
 .project1 {
   width: 450px;
@@ -109,5 +114,8 @@ i {
   }
   #checkout {
     margin-left: 30px;
+  }
+  #KIT {
+    padding-left: 0;
   }
 }
